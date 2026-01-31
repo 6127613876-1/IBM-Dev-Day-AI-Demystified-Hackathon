@@ -38,8 +38,8 @@ Audit Database (SQLite)
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/incident-autopilot-ai.git
-cd incident-autopilot-ai
+git clone https://github.com/6127613876-1/IBM-Dev-Day-AI-Demystified-Hackathon.git
+cd IBM-Dev-Day-AI-Demystified-Hackathon
 ```
 
 ---
