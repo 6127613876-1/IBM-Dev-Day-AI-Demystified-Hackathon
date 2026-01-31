@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-[#020617] via-[#020b2d] to-black text-white;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #22d3ee;
+  border-radius: 10px;
+}

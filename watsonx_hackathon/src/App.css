@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* IBM Plex Sans font import */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
+:root {
+	--ibm-blue: #0f62fe;
+	--ibm-blue-dark: #0043ce;
+	--ibm-gray-100: #f4f4f4;
+	--ibm-gray-900: #161616;
+	--ibm-gray-800: #262626;
+	--ibm-gray-700: #393939;
+	--ibm-gray-600: #525252;
+	--ibm-gray-500: #6f6f6f;
+	--ibm-accent: #42be65;
+	--ibm-font: 'IBM Plex Sans', Arial, sans-serif;
+}
+
+body, html, #root {
+	font-family: var(--ibm-font);
+	background: var(--ibm-gray-900);
+	color: var(--ibm-gray-100);
+}
+
+.ibm-header {
+	background: var(--ibm-gray-900);
+	color: var(--ibm-blue);
+	border-bottom: 4px solid var(--ibm-blue);
+	font-family: var(--ibm-font);
+	font-weight: 700;
+	letter-spacing: 0.02em;
+}
+
+.ibm-nav {
+	background: var(--ibm-gray-800);
+	color: var(--ibm-gray-100);
+	display: flex;
+	gap: 2rem;
+	padding: 1rem 2rem;
+	font-size: 1.1rem;
+	border-bottom: 1px solid var(--ibm-gray-700);
+}
+
+.ibm-nav a {
+	color: var(--ibm-blue);
+	text-decoration: none;
+	font-weight: 600;
+	transition: color 0.2s;
+}
+.ibm-nav a:hover {
+	color: var(--ibm-accent);
+}
+
+.ibm-footer {
+	background: var(--ibm-gray-800);
+	color: var(--ibm-gray-500);
+	text-align: center;
+	padding: 2rem 0 1rem 0;
+	font-size: 0.95rem;
+	border-top: 1px solid var(--ibm-gray-700);
+	margin-top: 3rem;
+}
